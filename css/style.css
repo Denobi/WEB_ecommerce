@@ -1,3 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
 
+.container-00 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.container-00.container-01 {
+  background-image: url("https://images.pexels.com/photos/2537930/pexels-photo-2537930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.container-00.container-01 .navHeader {
+  height: 13vh;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.container-00.container-01 .navHeader .navbarOpt {
+  width: 50%;
+  margin: 0 0 0 60%;
+}
+.container-00.container-01 .navHeader .navbarOpt a {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.container-00.container-01 .textsDivs {
+  margin-top: 100px;
+  width: 800px;
+  height: 500px;
+  margin-left: 30px;
+  background-color: rgba(0, 255, 255, 0.3568627451);
+}
+.container-00.container-01 .textsDivs .textsTitle {
+  font-size: 4.3rem;
+  color: #fff;
+  text-transform: uppercase;
+}
 
 /*# sourceMappingURL=style.css.map */

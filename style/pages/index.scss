@@ -1,0 +1,43 @@
+.container-00 {
+  &.container-01 {
+    background-image: url('https://images.pexels.com/photos/2537930/pexels-photo-2537930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+
+
+    .navHeader {
+      height: 13vh;
+      /* From https://css.glass */
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+
+      .navbarOpt {
+        width: 50%;
+        margin: 0 0 0 60%;
+
+        a {
+          color: #fff;
+          font-size: 1.6rem;
+          font-weight: 600;
+          // margin-left: 18px;
+
+        }
+      }
+    }
+
+    .textsDivs {
+      margin-top: 100px;
+      width: 800px;
+      height: 500px;
+      margin-left: 30px;
+      background-color: #00ffff5b;
+      .textsTitle{
+        font-size: 4.3rem;
+        color: #fff;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+}
