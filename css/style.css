@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .container-00 {
@@ -11,7 +11,7 @@
 }
 
 .container-00.container-01 {
-  background-image: url("https://images.pexels.com/photos/2537930/pexels-photo-2537930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 .container-00.container-01 .navHeader {
   height: 13vh;
@@ -19,29 +19,47 @@
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 .container-00.container-01 .navHeader .navbarOpt {
   width: 50%;
   margin: 0 0 0 60%;
 }
 .container-00.container-01 .navHeader .navbarOpt a {
-  color: #fff;
+  color: burlywood;
   font-size: 1.6rem;
   font-weight: 600;
 }
 .container-00.container-01 .textsDivs {
+  display: flex;
+  justify-content: space-around;
+}
+.container-00.container-01 .textsDivs .divTexts {
   margin-top: 100px;
-  width: 800px;
+  width: 700px;
   height: 500px;
   margin-left: 30px;
-  background-color: rgba(0, 255, 255, 0.3568627451);
 }
-.container-00.container-01 .textsDivs .textsTitle {
-  font-size: 4.3rem;
-  color: #fff;
+.container-00.container-01 .textsDivs .divTexts .textsTitle {
+  font-size: 4.6rem;
+  color: #7180ac;
   text-transform: uppercase;
+}
+.container-00.container-01 .textsDivs .divsRow {
+  width: 1080px;
+  height: 800px;
+  margin: -20px auto 0 auto;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: center;
+}
+.container-00.container-01 .textsDivs .divsRow .colDivs {
+  width: 330px;
+  height: 350px;
 }
 
 /*# sourceMappingURL=style.css.map */
