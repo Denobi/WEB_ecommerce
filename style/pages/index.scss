@@ -17,7 +17,7 @@
         margin: 0 0 0 60%;
 
         a {
-          color: $burlywood;
+          color: $light-blue;
           font-size: 1.6rem;
           font-weight: 600;
           // margin-left: 18px;
@@ -39,14 +39,14 @@
         margin-left: 30px;
         .textsTitle{
           font-size: 4.6rem;
-          color: $glaucous;
+          color: $irresistible;
           text-transform: uppercase;
         }
       }
       .divsRow{
         width: 1080px;
         height: 800px;
-        margin: -20px auto 0 auto;
+        margin: -0 auto 0 auto;
         gap: 20px;
         // background-color: aqua;
         display: flex;
@@ -57,6 +57,37 @@
         .colDivs{
           width: 330px;
           height: 350px;
+          border-radius: 30px;
+          
+          background-repeat: no-repeat;
+          background-size: cover;
+          &.imgDivs-01{
+            background-color:$light-blue ;
+          //  background-image: url('https://images.pexels.com/photos/2362004/pexels-photo-2362004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+          }
+          &.imgDivs-02{
+            background-color: $irresistible;
+          //  background-image: url('https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+          }
+          &.imgDivs-03{
+            background-color: $irresistible;
+            
+          //  background-image: url('https://images.pexels.com/photos/2362004/pexels-photo-2362004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+          }
+          &.imgDivs-04{
+            background-color:$light-blue ;
+          //  background-image: url('https://images.pexels.com/photos/2362004/pexels-photo-2362004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+          }
+          .titleCol{
+            font-size: 2.6rem;
+            color: $dark-cornflower-blue;
+            text-align: center;
+            margin-top: 3%;
+          }
+          p{
+            font-size: 1rem;
+            padding: 10px;
+          }
         }
       }
     }
